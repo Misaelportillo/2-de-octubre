@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegación</title>
+    <style>
+        /* Estilos básicos del body */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Contenedor de la barra de navegación */
+        .navbar {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        /* Estilos de los enlaces de la barra de navegación */
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        /* Hover de los enlaces */
+        .navbar a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        /* Usando Box Model para espaciar los elementos */
+        .navbar a {
+            border: 1px solid transparent; /* Para entender mejor el box model */
+            margin: 0 5px; /* Espaciado entre los enlaces */
+        }
+
+        /* Mejoras de color para que el contenido sea más legible */
+        .content {
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+            margin: 20px;
+            border: 2px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Sobre Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </div>
+
+    <!-- Contenido de la página -->
+    <div class="content">
+        <h1>Bienvenido a nuestro sitio web</h1>
+        <p>Este es un ejemplo de cómo crear una barra de navegación utilizando el Box Model en CSS sin usar Flexbox. La barra de navegación tiene una mejora en los colores y un diseño sencillo con espacios entre los enlaces.</p>
+    </div>
+
+</body>
+</html>
